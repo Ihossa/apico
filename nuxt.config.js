@@ -2,9 +2,9 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
-  mode: 'spa',
+  ssr: false,
   router: {
-     base: '/nuxt-apico/'
+     base: '/nuxt/'
    },
   head: {
     titleTemplate: '%s - apico',
